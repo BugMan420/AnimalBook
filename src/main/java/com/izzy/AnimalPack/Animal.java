@@ -4,6 +4,11 @@ public abstract class Animal {
 private int age;
 private int size;
 
+public Animal (int age, int size){
+    setAge();
+    setSize();
+}
+
 public abstract void eat (String food);
 
 public abstract String Reproduction();
