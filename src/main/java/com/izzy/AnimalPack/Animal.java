@@ -1,11 +1,11 @@
 package com.izzy.AnimalPack;
 
 public abstract class Animal {
-public int age = 2;
-public int size = 2 ;
+public int age;
+public int size ;
 String name;
 
-public Animal (int size,int age){};
+public Animal (){};
 
 public abstract void eat (String food);
 

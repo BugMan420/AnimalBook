@@ -1,9 +1,7 @@
 package com.izzy.AnimalPack;
 
 public class Dog extends Mammal{
-    public Dog(int size, int age) {
-        super(size, age);
-    }
+    public Dog() {}
 
     @Override
     public void eat(String food)

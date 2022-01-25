@@ -2,7 +2,7 @@ package com.izzy.AnimalPack;
 
 public class Main {
     public static void main(String args[]) {
-        Dog Poodle = new Dog(11,5);
+        Dog Poodle = new Dog();
         Poodle.name = "Fluffy";
         Poodle.age = 5;
         Poodle.dogName();

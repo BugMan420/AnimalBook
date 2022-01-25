@@ -3,9 +3,7 @@ package com.izzy.AnimalPack;
 public abstract class Mammal extends Animal {
 
 
-    public Mammal(int size, int age) {
-        super(size, age);
-    }
+    public Mammal() {}
 
     public String Breathing(){
         return "I breathe using lungs.";
