@@ -1,2 +1,4 @@
 com\izzy\AnimalPackTest\AgeTest.class
+com\izzy\AnimalPackTest\SizeTest.class
 com\izzy\AnimalPackTest\NameTest.class
+com\izzy\AnimalPackTest\DogEatTest.class
