@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AgeTest {
     @Test
-    public void testAge(){
+    public void ageTest(){
         Dog testDog = new Dog();
         testDog.age = 5;
         testDog.setAge();
