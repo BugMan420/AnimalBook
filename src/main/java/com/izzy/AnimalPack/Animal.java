@@ -30,7 +30,7 @@ public Animal (){};
 
     public void setAge(int i){
 
-        age = age;
+        age = i;
     }
 
     public int getSize (){
@@ -40,7 +40,7 @@ public Animal (){};
 
     public void setSize (int i){
 
-        size = size;
+        size = i;
     }
 
 public abstract void eat (String food);

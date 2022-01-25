@@ -2,14 +2,14 @@
 
 <span class="nc" id="L3">public class Main {</span>
     public static void main(String args[]) {
-<span class="nc" id="L5">        Dog Poodle = new Dog();</span>
-<span class="nc" id="L6">        Poodle.name = &quot;Fluffy&quot;;</span>
-<span class="nc" id="L7">        Poodle.age = 5;</span>
-<span class="nc" id="L8">        Poodle.dogName();</span>
-<span class="nc" id="L9">        Poodle.eat(&quot;turkey&quot;);</span>
-<span class="nc" id="L10">        Poodle.setAge();</span>
-<span class="nc" id="L11">        System.out.println(&quot;This dog is &quot;+ Poodle.getAge());</span>
-
+<span class="nc" id="L5">        Dog Poodle = new Dog(5, 5);</span>
+<span class="nc" id="L6">        Poodle.setName(&quot;Bob&quot;);</span>
+<span class="nc" id="L7">        Poodle.printName();</span>
+<span class="nc" id="L8">        System.out.println(Poodle.getAge());</span>
+<span class="nc" id="L9">        String poop = Poodle.excretion();</span>
+<span class="nc" id="L10">        String breathing = Poodle.Breathing();</span>
+<span class="nc" id="L11">        String reproduction = Poodle.Reproduction();</span>
+<span class="nc" id="L12">        System.out.println(breathing + poop + reproduction );</span>
 <span class="nc" id="L13">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

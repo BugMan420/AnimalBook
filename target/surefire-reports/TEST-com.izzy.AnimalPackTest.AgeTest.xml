@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.izzy.AnimalPackTest.AgeTest" time="0.037" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.izzy.AnimalPackTest.AgeTest" time="0.057" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ISMAEL~1\AppData\Local\Temp\surefire3822943813382583594\surefirebooter9013036274774468100.jar C:\Users\Ismael Simoes\AppData\Local\Temp\surefire3822943813382583594 2022-01-25T10-13-20_666-jvmRun1 surefire1150138869001535190tmp surefire_015381994399394746486tmp"/>
+    <property name="sun.java.command" value="C:\Users\ISMAEL~1\AppData\Local\Temp\surefire12764030987102644658\surefirebooter8850311300870490878.jar C:\Users\Ismael Simoes\AppData\Local\Temp\surefire12764030987102644658 2022-01-25T11-12-00_550-jvmRun1 surefire14193964797190338445tmp surefire_0604559828120342638tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Ismael Simoes\IdeaProjects\AnimalApp\target\test-classes;C:\Users\Ismael Simoes\IdeaProjects\AnimalApp\target\classes;C:\Users\Ismael Simoes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Ismael Simoes\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ismael Simoes\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ismael Simoes\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ISMAEL~1\AppData\Local\Temp\surefire3822943813382583594\surefirebooter9013036274774468100.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ISMAEL~1\AppData\Local\Temp\surefire12764030987102644658\surefirebooter8850311300870490878.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
