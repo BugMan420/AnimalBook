@@ -11,6 +11,6 @@ public class AgeTest {
         Dog testDog = new Dog();
         testDog.age = 5;
         testDog.setAge();
-        assertEquals(2, testDog.getAge(), "The expected age of the dog was wrong");
+        assertEquals(5, testDog.getAge(), "The expected age of the dog was wrong");
     }
 }
