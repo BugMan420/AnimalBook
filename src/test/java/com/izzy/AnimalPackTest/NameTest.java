@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class NameTest {
+public class NameTest {
     @Test
-    public void Nametest(){
+    public void testName(){
     Dog testDog = new Dog(5,5);
     testDog.setName("Bool");
     assertEquals("Bool", testDog.getName(), "The expected name of the dog was wrong");
