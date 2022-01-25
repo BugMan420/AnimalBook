@@ -5,11 +5,11 @@ public abstract class Mammal extends Animal {
 
     public Mammal() {}
 
-    public String Breathing(){
+    public String breathing(){
         return "I breathe using lungs.";
     }
 
-    public String Reproduction(){
+    public String reproduction(){
         return "I produce live young";
     }
 

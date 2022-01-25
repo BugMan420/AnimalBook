@@ -43,11 +43,11 @@ public Animal (){};
         size = i;
     }
 
-public abstract void eat (String food);
+public abstract void eat ();
 
-public abstract String Reproduction();
+public abstract String reproduction();
 
-public abstract String Breathing();
+public abstract String breathing();
 
 
 
