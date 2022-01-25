@@ -5,12 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class NameTest {
-    @Test
-    public void testName(){
+public class SizeTest { @Test
+public void testSize(){
     Dog testDog = new Dog(5,5);
-    testDog.setName("Bool");
-    assertEquals("Bool", testDog.getName(), "The expected name of the dog was wrong");
+    testDog.setSize(9);
+    assertEquals(9, testDog.getSize(), "The expected size of the dog was wrong");
 }
 }
-
