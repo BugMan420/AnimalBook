@@ -1,5 +1,7 @@
-com\izzy\AnimalPack\Dog.class
 com\izzy\AnimalPack\Bird.class
-com\izzy\AnimalPack\Main.class
+com\izzy\AnimalPack\Penguin.class
 com\izzy\AnimalPack\Animal.class
 com\izzy\AnimalPack\Mammal.class
+com\izzy\AnimalPack\Dog.class
+com\izzy\AnimalPack\FlightInterface.class
+com\izzy\AnimalPack\Main.class

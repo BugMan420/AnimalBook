@@ -1,8 +1,8 @@
 package com.izzy.AnimalPack;
 
 public abstract class Animal {
-public static int age = 0;
-public static int size = 0;
+public static int age;
+public static int size;
 private String name;
 
 public Animal (){};
@@ -15,8 +15,8 @@ public Animal (){};
         this.name = name;
     }
 
-    public void printName(){
-        System.out.println("My name is "+name);
+    public String printName(){
+        return ("My name is "+ name);
     }
     public String excretion(){
 
@@ -43,7 +43,7 @@ public Animal (){};
         size = i;
     }
 
-public abstract void eat ();
+public abstract String eat ();
 
 public abstract String reproduction();
 

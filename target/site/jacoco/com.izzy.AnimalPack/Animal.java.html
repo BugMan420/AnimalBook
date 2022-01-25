@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Animal.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AnimalApp</a> &gt; <a href="index.source.html" class="el_package">com.izzy.AnimalPack</a> &gt; <span class="el_source">Animal.java</span></div><h1>Animal.java</h1><pre class="source lang-java linenums">package com.izzy.AnimalPack;
 
 public abstract class Animal {
-<span class="fc" id="L4">public static int age = 0;</span>
-<span class="fc" id="L5">public static int size = 0;</span>
+public static int age;
+public static int size;
 private String name;
 
 <span class="fc" id="L8">public Animal (){};</span>
@@ -15,9 +15,9 @@ private String name;
 <span class="fc" id="L15">        this.name = name;</span>
 <span class="fc" id="L16">    }</span>
 
-    public void printName(){
-<span class="nc" id="L19">        System.out.println(&quot;My name is &quot;+name);</span>
-<span class="nc" id="L20">    }</span>
+    public String printName(){
+<span class="nc" id="L19">        return (&quot;My name is &quot;+ name);</span>
+    }
     public String excretion(){
 
 <span class="fc" id="L23">        return &quot;I poop. &quot;;</span>
@@ -43,7 +43,7 @@ private String name;
 <span class="fc" id="L43">        size = i;</span>
 <span class="fc" id="L44">    }</span>
 
-public abstract void eat ();
+public abstract String eat ();
 
 public abstract String reproduction();
 

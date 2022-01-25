@@ -10,10 +10,10 @@ public class Dog extends Mammal{
     }
 
     @Override
-    public void eat()
+    public String eat()
     {
-        System.out.println("I like dog food and my own poop!");
         Dog.size = this.size+1;
+        return "I like dog food and my own poop!";
     }
 
 }

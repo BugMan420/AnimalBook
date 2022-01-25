@@ -2,16 +2,17 @@ package com.izzy.AnimalPack;
 
 public class Main {
     public static void main(String args[]) {
-        /*Dog Poodle = new Dog(5, 5);
-        Poodle.setName("Bob");
-        Poodle.printName();
-        System.out.println(Poodle.getSize());
-        Poodle.eat();
-        System.out.println(Poodle.getSize());
-        System.out.println(Poodle.getAge());
-        String poop = Poodle.excretion();
-        String breathing = Poodle.breathing();
-        String reproduction = Poodle.reproduction();
-        System.out.println(breathing + poop + reproduction );*/
+        Penguin Brad = new Penguin(11,5, 5);
+        Brad.setName("Bob");
+        Brad.printName();
+        System.out.println(Brad.getSize());
+        Brad.eat();
+        System.out.println(Brad.getSize());
+        System.out.println(Brad.getAge());
+        String poop = Brad.excretion();
+        String breathing = Brad.breathing();
+        String reproduction = Brad.reproduction();
+
+        System.out.println(breathing + poop + reproduction +" and my wingspan is " + Brad.getWingspan() );
     }
 }
