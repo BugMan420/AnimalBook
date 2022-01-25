@@ -8,9 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AgeTest {
     @Test
     public void ageTest(){
-        Dog testDog = new Dog();
-        testDog.age = 5;
-        testDog.setAge();
+        Dog testDog = new Dog(5,5);
         assertEquals(5, testDog.getAge(), "The expected age of the dog was wrong");
     }
 }
